@@ -13,7 +13,7 @@ string numberA = Console.ReadLine();
 
 if(numberA.Length < 3)
 {
-    Console.WriteLine ("Третьей цивры в числе нет");
+    Console.WriteLine ("Третьей цифры в числе нет");
 
 
 }
