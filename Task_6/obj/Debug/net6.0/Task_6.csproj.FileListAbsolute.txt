@@ -1,0 +1,15 @@
+/Users/elenakonovalcik/Desktop/Tasks_C#_1/HomeWork_C-/Task_6/bin/Debug/net6.0/Task_6
+/Users/elenakonovalcik/Desktop/Tasks_C#_1/HomeWork_C-/Task_6/bin/Debug/net6.0/Task_6.deps.json
+/Users/elenakonovalcik/Desktop/Tasks_C#_1/HomeWork_C-/Task_6/bin/Debug/net6.0/Task_6.runtimeconfig.json
+/Users/elenakonovalcik/Desktop/Tasks_C#_1/HomeWork_C-/Task_6/bin/Debug/net6.0/Task_6.dll
+/Users/elenakonovalcik/Desktop/Tasks_C#_1/HomeWork_C-/Task_6/bin/Debug/net6.0/ref/Task_6.dll
+/Users/elenakonovalcik/Desktop/Tasks_C#_1/HomeWork_C-/Task_6/bin/Debug/net6.0/Task_6.pdb
+/Users/elenakonovalcik/Desktop/Tasks_C#_1/HomeWork_C-/Task_6/obj/Debug/net6.0/Task_6.csproj.AssemblyReference.cache
+/Users/elenakonovalcik/Desktop/Tasks_C#_1/HomeWork_C-/Task_6/obj/Debug/net6.0/Task_6.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elenakonovalcik/Desktop/Tasks_C#_1/HomeWork_C-/Task_6/obj/Debug/net6.0/Task_6.AssemblyInfoInputs.cache
+/Users/elenakonovalcik/Desktop/Tasks_C#_1/HomeWork_C-/Task_6/obj/Debug/net6.0/Task_6.AssemblyInfo.cs
+/Users/elenakonovalcik/Desktop/Tasks_C#_1/HomeWork_C-/Task_6/obj/Debug/net6.0/Task_6.csproj.CoreCompileInputs.cache
+/Users/elenakonovalcik/Desktop/Tasks_C#_1/HomeWork_C-/Task_6/obj/Debug/net6.0/Task_6.dll
+/Users/elenakonovalcik/Desktop/Tasks_C#_1/HomeWork_C-/Task_6/obj/Debug/net6.0/ref/Task_6.dll
+/Users/elenakonovalcik/Desktop/Tasks_C#_1/HomeWork_C-/Task_6/obj/Debug/net6.0/Task_6.pdb
+/Users/elenakonovalcik/Desktop/Tasks_C#_1/HomeWork_C-/Task_6/obj/Debug/net6.0/Task_6.genruntimeconfig.cache
