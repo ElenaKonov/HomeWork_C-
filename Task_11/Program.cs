@@ -18,4 +18,4 @@ int exponent=1;
 for (int i=1; i <= numberB; i++)
 {exponent=exponent*numberA;
 }
-System.Console.WriteLine(exponent);
+System.Console.WriteLine($" {numberA}^{numberB} = {exponent}");
