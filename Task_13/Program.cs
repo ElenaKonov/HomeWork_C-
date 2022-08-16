@@ -14,5 +14,7 @@ for (int i=0; i< result.Length; i++)
   }
   return  result; 
   }
-int[] array=GetArray(8);
+  System.Console.WriteLine("Введите размер массива");
+  int size=Convert.ToInt32(Console.ReadLine());
+int[] array=GetArray(size);
 System.Console.WriteLine($"Результат: [{String.Join("," , array)}]"); 
