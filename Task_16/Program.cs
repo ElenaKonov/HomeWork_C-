@@ -26,4 +26,4 @@ for (int i=1; i< size; i++){
 double difference=max-min;
 
 
-System.Console.WriteLine($" Разность между максимальным  {max}  и минимальным  {min} элементами массива [{String.Join(" ; " , array)}] равна {difference}");
+System.Console.WriteLine($" Разность между max=  {max}  и min=  {min} элементами массива [{String.Join(" ; " , array)}] равна {difference}");
