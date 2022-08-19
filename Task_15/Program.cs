@@ -18,14 +18,14 @@ for (int i=0; i< size; i++){
   int size=Convert.ToInt32(Console.ReadLine());
   int[] array=GetArray(size);
 
-int GetSumEvenPosition(int[] array)
+int GetSumOddPosition(int[] array)
 {
-int sum=0; int i=0;
-while (i < size ){
-    if(i % 2 == 1) sum=sum+array[i];
-    i++;
+int sum=0; 
+for (int i=1; i< size; i+=2){
+     sum=sum+array[i];
+    
 }
 return sum;
 }
-int summa= GetSumEvenPosition(array);
-System.Console.WriteLine($" Сумма элементов, стоящих на четных позициях в массиве [{String.Join("," , array)}] равна {summa}");
+int summa= GetSumOddPosition(array);
+System.Console.WriteLine($" Сумма элементов, стоящих на нечетных позициях в массиве [{String.Join("," , array)}] равна {summa}");
