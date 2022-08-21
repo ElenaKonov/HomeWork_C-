@@ -11,9 +11,9 @@ int i=0;
 int sum =0;
 
 
-while (i< numberA.Length)
-{ sum = sum + numberA[i];
-i++;
+while (i< numberA.Length){ 
+     sum = sum + numberA[i];
+      i++;
 }
 System.Console.WriteLine($"сумма цифр числа  {numberA} равна {sum -numberA.Length*48}");
 

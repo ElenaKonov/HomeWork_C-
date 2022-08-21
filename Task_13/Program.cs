@@ -7,14 +7,14 @@ int[] GetArray(int size)
 int[] result = new int [size];
 System.Console.WriteLine("Введите последовательно с клавиатуры элементы массива: ");
 
-for (int i=0; i< result.Length; i++)
-{
+for (int i=0; i< result.Length; i++){
     result[i]=Convert.ToInt32(Console.ReadLine());
    
   }
   return  result; 
   }
   System.Console.WriteLine("Введите размер массива");
+
   int size=Convert.ToInt32(Console.ReadLine());
-int[] array=GetArray(size);
+  int[] array=GetArray(size);
 System.Console.WriteLine($"Результат: [{String.Join("," , array)}]"); 

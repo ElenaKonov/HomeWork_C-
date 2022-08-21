@@ -11,8 +11,8 @@ int B = Convert.ToInt32(Console.ReadLine());
 int GetExponNumbers(int A, int B)
 {
    int exponent=1;
-for (int i=1; i <= B; i++)
-{exponent=exponent*A;
+for (int i=1; i <= B; i++){
+    exponent=exponent*A;
 }
 return exponent;
 }

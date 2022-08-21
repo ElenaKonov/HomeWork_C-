@@ -15,7 +15,7 @@ int numberB = Convert.ToInt32(Console.ReadLine());
 
 
 int exponent=1;
-for (int i=1; i <= numberB; i++)
-{exponent=exponent*numberA;
+for (int i=1; i <= numberB; i++){
+    exponent=exponent*numberA;
 }
 System.Console.WriteLine($" {numberA}^{numberB} = {exponent}");
