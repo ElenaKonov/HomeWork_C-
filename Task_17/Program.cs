@@ -9,7 +9,7 @@ int[] GetArray(int size)
 {
 int[] result = new int [size];
 for (int i=0; i< size; i++){
-    Console.WriteLine("Введите  число");
+    Console.WriteLine($"Введите {i+1 } число");
      result[i]=Convert.ToInt32(Console.ReadLine());
 }
   return  result; 
@@ -29,4 +29,4 @@ int GetCountPositive(int[] array)
 return count;
 }
 int counter= GetCountPositive(array);
-Console.WriteLine($" Количество положительныъ чисел  среди введенных [{String.Join("," , array)}] равно {counter}");
+Console.WriteLine($" Количество положительных чисел  среди введенных [{String.Join("," , array)}] равно {counter}");
