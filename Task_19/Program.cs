@@ -6,7 +6,8 @@
 
 Console.WriteLine("Введите число");
 int number=Convert.ToInt32(Console.ReadLine());
-int counter=GetLengthBinaryCod(number);int [] array=GetBinaryCod(counter);
+int counter=GetLengthBinaryCod(number); //получение длины двоичной записи числа с помощью цикла.
+int [] array=GetBinaryCod(counter);
 
 Console.WriteLine($"{String.Join("", array)}");
 
