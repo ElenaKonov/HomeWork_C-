@@ -16,9 +16,9 @@ int GetLengthBinaryCod(int number){
 int count=0;
 while (number>0){
     
- number=number/=2;
-count++;
-}
+  number=number/=2;
+  count++;
+   }
 return count;
 }
 
@@ -30,8 +30,8 @@ int[] result=new int[counter];
 while (number>0){
      for (int i=0; i< counter; i++) {
      result[counter-1-i] =number%2;
- number=number/=2;
-}
-}
+     number=number/=2;
+       }
+    }
 return result;
 }
