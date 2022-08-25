@@ -23,4 +23,4 @@ if (k1==k2 && b1<b2 || b1>b2) {
   { double xM=(b2-b1)/(k1-k2);
    double yM=k1*(b2-b1)/(k1-k2)+b1;
   
-Console.WriteLine($"Прямые пересекаются в точке M({Math.Round(xM )}; {Math.Round(yM)})");}
+Console.WriteLine($"Прямые пересекаются в точке M({Math.Round(xM )}; {Math.Round(yM)})");} // Сделала округление вычислений до целого.
