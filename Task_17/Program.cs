@@ -3,8 +3,13 @@
 //0, 7, 8, -2, -2 -> 2
 
 //1, -7, 567, 89, 223-> 3
+Console.WriteLine("Введите колличество чисел");
 
+  int size=Convert.ToInt32(Console.ReadLine());
+  int[] array=GetArray(size);
 
+int counter= GetCountPositive(array);
+Console.WriteLine($" Количество положительных чисел  среди введенных [{String.Join("," , array)}] равно {counter}");
 int[] GetArray(int size)
 {
 int[] result = new int [size];
@@ -14,11 +19,8 @@ for (int i=0; i< size; i++){
 }
   return  result; 
   }
-  Console.WriteLine("Введите колличество чисел");
 
-  int size=Convert.ToInt32(Console.ReadLine());
-  int[] array=GetArray(size);
-
+  
 int GetCountPositive(int[] array)
 {int count=0;
     for( int i=0; i<size; i++){
@@ -28,5 +30,7 @@ int GetCountPositive(int[] array)
 }
 return count;
 }
-int counter= GetCountPositive(array);
-Console.WriteLine($" Количество положительных чисел  среди введенных [{String.Join("," , array)}] равно {counter}");
+
+
+
+
