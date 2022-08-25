@@ -7,18 +7,19 @@
 
 
 
-//int counter=GetLengthBinaryCod(number);
+
 Console.WriteLine("Введите число");
 
 int number=Convert.ToInt32(Console.ReadLine());
-int size=Convert.ToInt32(Math.Round(Math.Log2(number))+1);
+int sizeBinaryCod=Convert.ToInt32(Math.Round(Math.Log2(number))+1);// Вычисление длины двоичной формы записи числа с помощью математической формулы.
+int  size= sizeBinaryCod;
 
 
 int[] GetBinaryCod( int size){
-int[] result=new int[ size];
+int[] result=new int[  size];
 
 while (number>0){
-     for (int i=0; i< size; i++) {
+     for (int i=0; i<  size; i++) {
      result[size-1-i] =number%2;
  number=number/=2;
 }
@@ -29,5 +30,5 @@ int [] array=GetBinaryCod(size);
 
 
 
-Console.WriteLine($"[{String.Join("", array)}]");
+Console.WriteLine($"{String.Join("", array)}");
 
