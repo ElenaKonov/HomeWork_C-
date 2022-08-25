@@ -10,24 +10,23 @@ Console.WriteLine("Введите колличество чисел");
 
 int counter= GetCountPositive(array);
 Console.WriteLine($" Количество положительных чисел  среди введенных [{String.Join("," , array)}] равно {counter}");
-int[] GetArray(int size)
-{
+int[] GetArray(int size){
 int[] result = new int [size];
 for (int i=0; i< size; i++){
     Console.WriteLine($"Введите {i+1 } число");
      result[i]=Convert.ToInt32(Console.ReadLine());
-}
+     }
   return  result; 
   }
 
   
-int GetCountPositive(int[] array)
-{int count=0;
+int GetCountPositive(int[] array){
+    int count=0;
     for( int i=0; i<size; i++){
 
        if(array[i]>0)count++;
 
-}
+    }
 return count;
 }
 
