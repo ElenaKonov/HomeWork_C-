@@ -31,7 +31,7 @@ int column = Convert.ToInt32(Console.ReadLine());
                                                                                                        //(1,1) (1,2) (1,3)
                                                                                                        //(2,1)(2,2) (2,3)
                                                                                                        //(3,1) (3,2)(3,3)
-  Console.WriteLine("Указанной  позиции соответствует элемент {number}");
+  Console.WriteLine($"Указанной  позиции соответствует элемент {number}");
   }
 
    else{
