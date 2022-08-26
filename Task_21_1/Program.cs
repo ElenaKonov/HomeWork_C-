@@ -24,12 +24,17 @@ Console.WriteLine();
 Console.Write("Введите позицию нужного   элемента массива двузначным числом: ");
 int positionNumber = Convert.ToInt32(Console.ReadLine());
 
-int row=positionNumber/=10;
-int column = positionNumber%10;
-  if (row<matrix.GetLength (0) &&  column <matrix.GetLength(1)+1){int number=matrix[row, column];// Здесь все считается с нуля
+int row = positionNumber /10;
+
+int column = positionNumber % 10;
+
+ if (row<matrix.GetLength (0) &&  column <matrix.GetLength(1)){int number=matrix[row, column]; // Здесь все считается с нуля, т е позицию элемента можно задать 00
   Console.WriteLine($"Элемент с указанной позицией: {number}");
   }
 
    else{
     Console.WriteLine("Элеменоа с таким номером в заданном массиве нет");
 }
+
+
+
