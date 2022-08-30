@@ -30,7 +30,7 @@ Console.WriteLine("Сумма элементов столбцов матрицы
 Console.WriteLine();
 
 
-int[]sum =new int [size];
+double[]sum =new double [size];
 
 for (int j = 0; j < size; j++) {
 
@@ -39,7 +39,9 @@ for (int j = 0; j < size; j++) {
         
 sum [j]+=matrix[i,j]; 
     }
-Console.Write(sum[ j] + "\t");
+Console.Write(sum[ j]/ matrix.GetLength(0)+ "\t");
+
+//Console.Write(sum[ j]/ + "\t");
 }
 
    
