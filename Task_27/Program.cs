@@ -10,15 +10,23 @@
 
 
 int [, ,] matrix = new int [2,2,2];
-string[, ] index = new string [3,2];
-for (int i = 0; i < matrix.GetLength(0);i++) {
-       for (int j = 0; j < matrix.GetLength(1); j++) {
-            for (int k = 0; k < matrix.GetLength(2); k++){
-             matrix[i, j, k] = new Random().Next(-10,10); 
-            index[i,j] =($"[{i},{j},{k}]");
-//string result = matrix[i, j, k](i,j,k);
-               Console.Write(matrix[i,j,k]+ "\t");
-               Console.Write(index[i,j]+ "\t");
+string [,]matrix1=new string[4,2];
+string[, ] index1 = new string [4,2];
+string[, ] index2 = new string [4,2];
+string[, ] index3 = new string [4,2];
+
+
+for (int i = 0; i < 2;i++) {
+       for (int j = 0; j < 2; j++) {
+            for (int k = 0; k < 2; k++){
+             matrix[i, j, k] = new Random().Next(10,100); 
+            
+            matrix1[i,j]=Convert.ToString(matrix[i,j,k]);
+            index1[i,j]=Convert.ToString(i);
+            index2[i,j]=Convert.ToString(j);
+            index3[i,j]=Convert.ToString(k);
+
+               Console.Write($"{matrix1[i,j]}[{index1[i,j]},{index2[i,j]},{index3[i,j]}] \t ");
             }
              Console.WriteLine();
        }
