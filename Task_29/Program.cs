@@ -6,10 +6,7 @@
 Console.Write("Введите  первое число : ");
 int M = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите  второечисло: ");
-
 int N = Convert.ToInt32(Console.ReadLine());
-//int sum=0;
-/// start  = начало (M), end - конец (N)
 int SumNumbers(int start, int end)
 {
     // Базовый случай
