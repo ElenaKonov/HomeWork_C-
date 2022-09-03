@@ -22,9 +22,9 @@ for (int i = 0; i < 2;i++) {
              matrix[i, j, k] = new Random().Next(10,100); 
             
             matrix1[i,j]=Convert.ToString(matrix[i,j,k]);
-            index1[i,j]=Convert.ToString(i);
+            index1[i,j]=Convert.ToString(k);
             index2[i,j]=Convert.ToString(j);
-            index3[i,j]=Convert.ToString(k);
+            index3[i,j]=Convert.ToString(i);
 
                Console.Write($"{matrix1[i,j]}[{index1[i,j]},{index2[i,j]},{index3[i,j]}] \t ");
             }
