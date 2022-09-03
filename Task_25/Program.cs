@@ -46,7 +46,7 @@ for (int i = 0; i < size; i++) {
 sum [i]+=matrix[i,j]; 
     }
 
-//Console.WriteLine(sum[ i]+ "\t");  //если нужжно, можно сумму вывести
+Console.WriteLine(sum[ i]+ "\t");  //если нужжно, можно сумму вывести
 }
 int index=0;
 int min=sum[0];
