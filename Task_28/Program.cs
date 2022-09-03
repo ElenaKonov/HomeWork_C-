@@ -21,12 +21,12 @@ int firstRow=0;
 int endRow=m-1;
 int counter=1;
 
-while (firstColumn <= endColumn && firstRow <= endRow){
-          for (int i = firstColumn; i < endColumn+1 ; i++){
+     while (firstColumn <= endColumn && firstRow <= endRow){
+                for (int i = firstColumn; i < endColumn+1 ; i++){
                 
                     matrix[firstRow,i] =counter;
                     counter++;
-}
+                }
 
                     firstRow++;
                   
@@ -36,16 +36,18 @@ while (firstColumn <= endColumn && firstRow <= endRow){
                 }
                     endColumn--;
                     
-                   for (int i = endColumn; i > firstColumn-1; i--){
+                for (int i = endColumn; i > firstColumn-1; i--){
 
                          matrix[endRow,i] =counter++;
-                   }
+                }
+                    
                     endRow--;
-                       for (int i = endRow; i > firstRow-1; i--){
+
+                for (int i = endRow; i > firstRow-1; i--){
                           
                           matrix[i, firstColumn]=counter;
                           counter++;
-                       }
+                }
                           firstColumn++;
 
                 }
@@ -53,16 +55,14 @@ while (firstColumn <= endColumn && firstRow <= endRow){
 }
 
                
-                void PrintArray(int[,] inputMatrix)
-{
-for (int i = 0; i <inputMatrix.GetLength(0); i++)
-{
-for (int j = 0; j < inputMatrix.GetLength(1); j++)
-{
-Console.Write(inputMatrix[i, j] + "\t"); 
-}
-Console.WriteLine();
-}
+ void PrintArray(int[,] inputMatrix){
+
+   for (int i = 0; i <inputMatrix.GetLength(0); i++){
+           for (int j = 0; j < inputMatrix.GetLength(1); j++) {
+                 Console.Write(inputMatrix[i, j] + "\t"); 
+            }
+       Console.WriteLine();
+    }
 }
 
 int[,] resultMatrix = GetArray(rows, columns);
